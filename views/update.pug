@@ -1,0 +1,29 @@
+extends layout.pug
+ 
+block content 
+  .container 
+     h1 Create application
+    
+     if error   
+       p.error Error occured! Try again!
+
+     if success 
+       p.success application is created!   
+
+     form.form(action="/applicants/update/" + application.id method='POST')
+         label FullName  
+         input.input(type="text" name='FullName' value=application.FullName)
+
+         label Email  
+         textarea.input(type="text" name="Email") #{application.Email}
+
+         label PhoneNumber 
+         textarea.input(type="text" name="PhoneNumber") #{application.PhoneNumber}
+
+         label Address   
+         textarea.input(type="text" name="Address") #{application.Address}
+
+         label Dormitory 
+         textarea.input(type ="text" name = "Dormitory") #{application.Dormitory}
+
+         button.btn Update the application 

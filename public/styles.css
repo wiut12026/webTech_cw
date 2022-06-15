@@ -1,0 +1,165 @@
+:root {
+  font-size: 18px;
+  color: #444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #753a88;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  color: rgb(90, 0, 45);
+}
+.navbar {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px dotted #ccc;
+  padding: 10px;
+}
+
+.nav {
+  color: #000000;
+  display: inline-block;
+  padding: 5px 8px;
+}
+
+/*homepage*/
+.container {
+  color: #141e30;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.txt1 {
+  color: #000000;
+  padding: 100px 0 30px 0;
+  font-size: 2rem;
+  max-width: 60%;
+}
+
+.featured {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(51, 170, 21);
+  color: white;
+}
+
+/* create page styles */
+.form {
+  max-width: 60%;
+}
+
+.input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #141e30;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-family: inherit;
+  border: none;
+  font-family: inherit;
+}
+
+/* notes styles*/
+.application-container {
+  max-width: 70%;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.application {
+  font-size: 1.3rem;
+}
+
+
+.error {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(94, 1, 1);
+  font-size: 1.2rem;
+  color: rgb(94, 1, 1);
+}
+
+.phoneError {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(94, 1, 1);
+  font-size: 1.2rem;
+
+  color: rgb(94, 1, 1);
+}
+
+.emailError {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(94, 1, 1);
+  font-size: 1.2rem;
+
+  color: rgb(94, 1, 1);
+}
+
+.success {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(51, 170, 21);
+  font-size: 1.2rem;
+
+  color: rgb(51, 170, 21);
+}
+
+.delete {
+  display: inline-block;
+  padding: 5px 10px;
+  background: rgb(94, 1, 1);
+  color: #fff;
+}
+
+.edit {
+  display: inline-block;
+  padding: 5px 10px;
+  background: rgb(51, 170, 21);
+  color: #fff;
+}
+
+.FullName {
+  color: rgb(51, 170, 21);
+}
+.Email {
+  font-size: 30px;
+  display: inline-flex;
+}
+.PhoneNumber {
+  font-size: 30px;
+  display: inline-flex;
+}
+
+.Address {
+  font-size: 30px;
+  display: inline-flex;
+}

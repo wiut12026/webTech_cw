@@ -1,0 +1,16 @@
+extends layout.pug
+ 
+block content
+  div.container 
+   h1 All applicants 
+
+    each application in applicants 
+      div.application-container
+        a.note(href=`/applicants/${ application.id }`) #{application.FullName}  
+
+        form(action=`/applicants/edit/${ application.id }` method="POST")
+          button.edit Edit 
+
+        form(action=`/applicants/delete/${ application.id }` method="POST")
+          button.delete Delete 
+             
